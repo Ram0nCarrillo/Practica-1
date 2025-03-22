@@ -10,6 +10,10 @@ public class Main {
         int[] a = {0, 5, 7, 2, 3, 1, 4, 8, 6, 9}; 
         int x = 10;
     
+    System.out.println("Ordenamiento Rapido:");
+        Ordenamiento.Rapido(a, 0, a.length - 1);
+        Ordenamiento.mostrar(a);
+    System.out.println("---------------------------------------------------");
     System.out.println("Ordenamiento de Burbuja:");
         Ordenamiento.mostrar(Ordenamiento.burbuja(a));
     System.out.println("---------------------------------------------------");
